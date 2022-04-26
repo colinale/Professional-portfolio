@@ -17,6 +17,11 @@ body {
     background: #00338d;
     color: #fff;
   }
+
+  .heading-elements{
+    margin:5px;
+    justify-content: flex-end;
+  }
   
   footer {
     width: 100%;
@@ -27,12 +32,17 @@ body {
     color: #fff;
     margin-top: auto;
   }
-
+  #test{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
   
-  @media screen and (max-width: 768px)
+  /* @media screen and (max-width: 768px)
     (width: 100%) {
     main,
     nav {
       flex-direction: column;
     }
-  }
+  } */
