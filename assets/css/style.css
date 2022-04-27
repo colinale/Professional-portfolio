@@ -41,7 +41,7 @@ body {
   }
 
   .heading-elements{
-    margin:20px;
+    /* margin:20px; */
     justify-content: flex-end;
   }
 
@@ -62,13 +62,19 @@ body {
 
   .phone-number{
     position:  relative;
-    left: 30px
+    left: 30x
   }
 
   .footer-elements{
-    margin: 20px;
-    justify-content: flex-end;
+    display: flex;
+    /* margin: 20px; */
+    justify-content: space-evenly;
     text-align: right;
+  }
+
+  .links{
+    display: flex;
+    justify-content: space-evenly;
   }
 
   /* @media screen and (max-width: 768px)
