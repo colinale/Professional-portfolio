@@ -41,7 +41,7 @@ body {
   }
 
   .heading-elements{
-    /* margin:20px; */
+    margin:20px;
     justify-content: flex-end;
   }
 
@@ -67,7 +67,7 @@ body {
 
   .footer-elements{
     display: flex;
-    /* margin: 20px; */
+    margin: 20px;
     justify-content: space-evenly;
     text-align: right;
   }
