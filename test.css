@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.container h2{
+    flex: 0 0 20%;
+    border-right: 5px solid black;
+    text-align: right;
+    padding-right: 8px;
+}
+
+.container div {
+    flex: 0 0 75%
+}
+
+.sports-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sports-container div {
+    min-height: 125px;
+    max-height: 125px;
+    margin: 4px;
+    border: solid blue 4px;
+    flex-basis: calc(50% - 1em);
+}
+
+.sports-container div:first-child{
+    min-height: 350px;
+    max-height: 350px;
+    flex-basis: 100%;
+}
