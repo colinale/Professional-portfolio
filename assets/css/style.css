@@ -117,6 +117,10 @@ section {
   border:solid red 5px;
 }
 
+.flex-col{
+  width: 100vw;
+}
+
 .players {
   width: 100%;
   margin: 0 auto;
@@ -149,7 +153,8 @@ section {
 
 .contact {
   background: #00338D;
-  display: flex
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .contact h2 {
@@ -158,19 +163,19 @@ section {
 
 .contact-info {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   color: white;
+  justify-content: space-evenly;
 }
 
-.contact-info > * {
+/* .contact-info > * {
   flex: 1;
   margin: 15px;
-}
+} */
 
-.contact-info div {
+/* .contact-info div {
   color: white;
-}
+} */
 
 @media screen and (max-width: 980px) {
   header {
