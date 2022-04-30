@@ -100,6 +100,23 @@ section {
   text-align: center;
 }
 
+.background-image{
+  width:auto;
+  margin: 0 auto;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.background-image{
+  margin: 20px;
+  flex: 1;
+  background: #00338D;
+  color: white;
+  border:solid red 5px;
+}
+
 .players {
   width: 100%;
   margin: 0 auto;
@@ -112,8 +129,8 @@ section {
 .player {
   margin: 20px;
   flex: 1;
-  background: var(--secondary-color);
-  color: var(--primary-color);
+  background: #00338d;
+  color: white;
   border: solid red 5px;
 }
 
