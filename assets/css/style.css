@@ -65,7 +65,7 @@ header h1 {
 }
 
 section {
-  padding: 32px;
+  padding: 70px;
 }
 
 #introduction{
@@ -143,6 +143,7 @@ section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  color: white;
 }
 
 .contact-info > * {
@@ -205,3 +206,6 @@ section {
   }
 }
 
+footer{
+  width:100vw;
+}
