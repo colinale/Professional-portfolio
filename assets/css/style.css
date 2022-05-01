@@ -36,23 +36,15 @@ header {
 }
 
 /* header end */
-h4{
-  font-size: 40px;
-  text-align: center;
-}
 
-:root {
-  --primary-color: #fff;
-  --secondary-color: #00338d;
-  --tertiary-color: #00338d;
-}
-
+/*border work*/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/*font work*/
 body {
   font-family: sans-serif;
 }
@@ -68,17 +60,7 @@ section {
   padding: 70px;
 }
 
-#introduction{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.wrapper{
-  display: flex;
-  flex-wrap:wrap;
-}
-
+/*Positioning*/
 .summary{
   flex-grow: 1;
 }
@@ -100,6 +82,7 @@ section {
   text-align: center;
 }
 
+/*Images*/
 .background-image{
   width:auto;
   margin: 0 auto;
@@ -117,8 +100,21 @@ section {
   border:solid red 5px;
 }
 
+.team-players{
+width: 100vw;
+}
+
 .flex-col{
   width: 100vw;
+}
+
+.colin-picture{
+  width: 100%;
+  margin: -80px auto;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .players {
